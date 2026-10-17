@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel = "styleSheet" href = "style.css">
+</head>
+<body>
+    <nav>
+        <a target = "_blank" href = "https://www.linkedin.com/in/shivankar-tiwari-16ba8339b/">LinkedIn</a>
+        <a target = "_blank" href = "https://github.com/shivankart9">Git Hub</a>
+    </nav>
+
+    <div class = "container">
+        <h1>BMI Calculator</h1>
+
+        <form>
+            <p><label>height in cm : </label><input type = "text" id = "height"></p>
+            <p><label>Weight in kg : </label><input type = "text" id = "weight"></p>
+            <button>Calculate</button>
+            <div id = "results"></div>
+            <div id = "weight guide">
+            <h3>BMI weight guide</h3>
+            <p>BMI = less than 18.5 : under weight</p>
+            <p>BMI = more than 24.5 : over weight</p>
+            <p>BMI = between 18.5 and 24.9 : normal weight</p>
+            </div>
+        </form>
+    </div>
+</body>
+<script src = "script.js"></script>
+</html>
